@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disponibilitate Evenimente - NCP Palace</title>
+    <style>
+        body {
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            background-color: #FAF7F2;
+            color: #5A4735;
+            background-image: url('https://www.transparenttextures.com/patterns/white-floral.png'); /* Subtle floral background */
+            position: relative;
+            overflow: hidden;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            text-align: center;
+            background: #FFF8F0;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            position: relative;
+            z-index: 2;
+        }
+        .logo-background {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            height: 100vh;
+            opacity: 0.6;
+            z-index: 1;
+        }
+        h1 {
+            font-size: 36px;
+            color: #8C6E4E;
+        }
+        .calendar {
+            margin: 20px 0;
+        }
+        .date-box {
+            background-color: #F4E3D7;
+            border: 1px solid #D6B69D;
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 8px;
+            font-size: 18px;
+        }
+        .contact-button {
+            display: inline-block;
+            background-color: #8C6E4E;
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            font-size: 18px;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+        .contact-button:hover {
+            background-color: #6A4C34;
+        }
+    </style>
+</head>
+<body>
+    <img src="logo-cu-slogan.png" alt="NCP Palace Logo" class="logo-background">
+    <div class="container">
+        <h1>Date Disponibile pentru Evenimente</h1>
+        <div class="calendar">
+            <div class="date-box">Mai 17</div>
+            <div class="date-box">Mai 18</div>
+            <div class="date-box">Iunie 7</div>
+            <div class="date-box">Iunie 8</div>
+            <div class="date-box">Iulie 6</div>
+            <div class="date-box">August 30</div>
+            <div class="date-box">Octombrie 26</div>
+        </div>
+        <a class="contact-button" href="https://wa.me/+40758116655" target="_blank">Contactează-ne pe WhatsApp</a>
+    </div>
+</body>
+</html>
